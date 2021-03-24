@@ -57,7 +57,7 @@ header .principal p:nth-child(1){
 }
 
 header .principal img{
-  width: 50em;
+  width: 40em;
 }
 
 header .principal p:nth-child(3){
@@ -85,7 +85,7 @@ header .principal a{
   text-decoration: none;
   padding: 10px 50px;
   border-radius: 50px;
-  font-size: 1.3em;
+  font-size: 1em;
   font-family: nunito,sans-serif;
   font-weight: 700;
 }
