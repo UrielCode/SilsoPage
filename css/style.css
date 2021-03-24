@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos del nav */
+
+nav{
+  background-color: #2D303D;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: nunito,sans-serif;
+}
+
+ul{
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+/* Estilos del header principal */
+header .principal{
+  background-color: #252734;
+  height: 100vh;
+  color: #fff;
+  font-family: nunito,sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header .principal h1{
+  margin-top: 30px;
+  line-height: 1em;
+  font-size: 4em;
+}
+
+header .principal p:nth-child(1){
+  color:#ff2c5e;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+header .principal img{
+  width: 50em;
+}
+
+header .principal p:nth-child(3){
+  color:#fff ;
+  font-weight: 400;
+  margin-top: 30px;
+  line-height: 1.5em;
+  font-size: 1.2em; 
+}
+
+header .principal p:nth-child(4){
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+header .principal p:nth-child(4) span{
+  font-size: .5em;
+}
+
+header .principal a{
+  background-color:#ff2c5e;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 50px;
+  border-radius: 50px;
+  font-size: 1.3em;
+  font-family: nunito,sans-serif;
+  font-weight: 700;
+}
+
+header .principal a:hover{
+  background-color:#fff;
+  color: #000;
+}
